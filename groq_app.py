@@ -5,7 +5,7 @@ import os
 # -------------------------------
 # Setup Groq client
 # -------------------------------
-client = Groq(api_key=os.environ["GROQ_API_KEY"])
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # -------------------------------
 # Page configuration
